@@ -1,0 +1,36 @@
+html, body {
+    background: rgb(32, 32, 32);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #424242;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgb(95, 95, 95);
+    border-radius: 20px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #686868;
+  }
+
+.card {
+    width: 200px;
+    margin: 10px 10px 10px 10px;
+    overflow: hidden;
+    background: rgb(49, 49, 49);
+    color: white;
+    transition: all .3s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    cursor: pointer;
+}
