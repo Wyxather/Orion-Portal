@@ -17,7 +17,45 @@ window.onload = function()
             
             card.onclick = function()
             {
-                alert(this.getElementsByTagName("h6")[0].innerText);
+                $('#modal').modal('show');
+
+                document.getElementById("title").innerText = this.getElementsByTagName("h6")[0].innerText;
+                document.getElementById("image").src = data["img"];
+
+                $.getJSON("posts/" + data["post"], function(json)
+                {
+                    const features = json["features"];
+                    const features_element = document.getElementById("features");
+                    features_element.innerHTML = "";
+
+                    for (var i = 0; i < features.length; i++)
+                        features_element.innerHTML += '<button class="btn btn-' + (features[i]["status"] ? 'success' : 'danger') + ' m-1">' + features[i]["name"] + '</button>';
+
+                    const changelog = json["changelog"];
+                    const changelog_element = document.getElementById("changelog");
+                    changelog_element.innerHTML = "";
+
+                    for (var i = 0; i < changelog.length; i++) {
+
+                        const changelog_id = "changelog_" + i;
+
+                        var changelog_changes = "";
+                        for (var j = 0; j < changelog[i]["changes"].length; j++)
+                            changelog_changes += '<li>' + changelog[i]["changes"][j] + '</li>';
+
+                        changelog_element.innerHTML +=
+                        '<a class="btn btn-dark" data-bs-toggle="collapse" href="#' + changelog_id + '">' +
+                            changelog[i]["date"] +
+                        '</a>\
+                        <div class="collapse" id="' + changelog_id + '">\
+                            <div class="container-fluid m-1">\
+                                <ul>' +
+                                    changelog_changes;
+                                '</ul>\
+                            </div>\
+                        </div>'
+                    }
+                });
             }
 
             element.appendChild(card);

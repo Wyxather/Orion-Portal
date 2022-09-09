@@ -1,0 +1,42 @@
+{
+  "features": [
+    {
+      "name": "Unlimited Health",
+      "status": true
+    },
+    {
+      "name": "Unlimited Shield",
+      "status": true
+    },
+    {
+      "name": "Unlimited Projectile Ammo",
+      "status": false
+    },
+    {
+      "name": "Unlimited Plasma Ammo",
+      "status": false
+    },
+    {
+      "name": "Unlimited Plasma Overcharge",
+      "status": false
+    },
+    {
+      "name": "Unlimited Flashlight",
+      "status": false
+    },
+    {
+      "name": "Unlimited Grenades",
+      "status": false
+    }
+  ],
+
+  "changelog": [
+    {
+      "date": "8 September 2022",
+      "changes": [
+        "Add unlimited health.",
+        "Add unlimited shield."
+      ]
+    }
+  ]
+}

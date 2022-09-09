@@ -1,5 +1,9 @@
 {
-    "cards":[
-        { "title":"Halo Combat Evolved", "img":"img/HaloCombatEvolved.png" }
-    ]
+  "cards": [
+    {
+      "title": "Halo Combat Evolved",
+      "img": "img/HaloCombatEvolved.png",
+      "post": "HaloCombatEvolved.json"
+    }
+  ]
 }
