@@ -54,6 +54,11 @@ window.onload = function()
                                 '</ul>\
                             </div>\
                         </div>'
+
+                        document.getElementById("download").onclick = function ()
+                        {
+                            window.open("https://github.com/Wyxather/Orion-Portal/releases/download/" + json["download"] + "/Orion-Internal.dll");
+                        }
                     }
                 });
             }
