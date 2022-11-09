@@ -4,6 +4,11 @@
       "title": "Halo Combat Evolved",
       "img": "img/HaloCombatEvolved.png",
       "post": "HaloCombatEvolved.json"
+    },
+    {
+      "title": "Borderlands 3",
+      "img": "img/Borderlands3.png",
+      "post": "Borderlands3.json"
     }
   ]
 }

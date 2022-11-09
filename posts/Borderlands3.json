@@ -1,0 +1,83 @@
+{
+  "features": [
+    {
+      "name": "Invulnerability",
+      "status": true
+    },
+    {
+      "name": "Remove Weapon Recoil",
+      "status": true
+    },
+    {
+      "name": "Remove Weapon Sway",
+      "status": true
+    },
+    {
+      "name": "Remove Weapon Ammo Cost",
+      "status": true
+    },
+    {
+      "name": "Weapon Accuracy Impulse Overrider",
+      "status": true
+    },
+    {
+      "name": "Weapon Spread Overrider",
+      "status": true
+    },
+    {
+      "name": "Weapon Firerate Overrider",
+      "status": true
+    },
+    {
+      "name": "Weapon Damage Overrider",
+      "status": true
+    },
+    {
+      "name": "Aimbot",
+      "status": true
+    },
+    {
+      "name": "Aimbot Hitbox Selection",
+      "status": true
+    },
+    {
+      "name": "Enemy Snapline ESP",
+      "status": true
+    },
+    {
+      "name": "Enemy Name ESP",
+      "status": true
+    },
+    {
+      "name": "Enemy Healthbar ESP",
+      "status": true
+    },
+    {
+      "name": "Enemy Shield ESP",
+      "status": true
+    },
+    {
+      "name": "Enemy 2D/3D Box ESP",
+      "status": true
+    },
+    {
+      "name": "DirectX 11",
+      "status": true
+    },
+    {
+      "name": "DirectX 12",
+      "status": false
+    }
+  ],
+
+  "changelog": [
+    {
+      "date": "9 November 2022",
+      "changes": [
+        "First release."
+      ]
+    }
+  ],
+
+  "download": "Borderlands3"
+}
