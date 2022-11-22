@@ -5,6 +5,10 @@
       "status": true
     },
     {
+      "name": "Remove Weapon Heat",
+      "status": true
+    },
+    {
       "name": "Remove Weapon Recoil",
       "status": true
     },
@@ -37,6 +41,10 @@
       "status": true
     },
     {
+      "name": "Aimbot Key",
+      "status": true
+    },
+    {
       "name": "Aimbot Hitbox Selection",
       "status": true
     },
@@ -46,6 +54,10 @@
     },
     {
       "name": "Enemy Name ESP",
+      "status": true
+    },
+    {
+      "name": "Enemy Weapon ESP",
       "status": true
     },
     {
@@ -71,6 +83,15 @@
   ],
 
   "changelog": [
+    {
+      "date": "20 November 2022",
+      "changes": [
+        "Improve aimbot.",
+        "Improve box esp.",
+        "Add weapon name esp.",
+        "Add remove weapon heat."
+      ]
+    },
     {
       "date": "9 November 2022",
       "changes": [
